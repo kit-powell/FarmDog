@@ -66,7 +66,7 @@ JsonDocument doc;
 doc["sensor"] = "109";
 doc["temp"][0] = bme.temperature;
 doc["humidity"][0] = bme.humidity;
-doc["pressure"][0] = bme.pressure;
+doc["pressure"][0] = bme.pressure/100;
 doc["Gas_R"][0] = bme.gas_resistance;
 serializeJson(doc, Serial);
 delay (1000);
