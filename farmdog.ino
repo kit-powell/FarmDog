@@ -4,7 +4,7 @@
 
 /* FarmDog firmware notes and attribs go here 
 Kit Powell
-July 15 2014
+July 15 2024
 
 /***************************************************************************
   This is a library for the BME680 gas, humidity, temperature & pressure sensor
